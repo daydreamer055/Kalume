@@ -1,7 +1,7 @@
 import React from 'react'
 import FooterLogo from "../../assets/logo (1).png"
 import Banner from "../../assets/footer-pattern.jpg"
-import { FaInstagram, FaFacebook,FaLinkedin,FaLocationArrow,FaMobileAlt } from 'react-icons/fa';
+import { FaInstagram, FaFacebook,FaLinkedin,FaLocationArrow,FaMobileAlt,FaGithub } from 'react-icons/fa';
 
 
 
@@ -109,9 +109,15 @@ const Footer = () => {
                       <FaFacebook className='text-3xl' ></FaFacebook>
                     </a>
 
-                    <a href="#">
-                      <FaLinkedin className='text-3xl' ></FaLinkedin>
+                    <a href="https://www.linkedin.com/in/anjali-singh-68ab36341/">
+                      <FaLinkedin className='text-3xl' >
+
+                      </FaLinkedin>
                     </a>
+                    <a href="https://github.com/daydreamer055/Kalume">
+                      <FaGithub className='text-3xl'></FaGithub>
+                    </a>
+
                  </div>
                  <div className='mt-6'>
                     <div className='flex items-center gap-3 '>
@@ -123,6 +129,8 @@ const Footer = () => {
                       <FaMobileAlt></FaMobileAlt>
                       <p>1234556789</p>
                     </div>
+
+                    
 
                  </div>
                </div>
