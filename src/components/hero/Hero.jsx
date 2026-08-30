@@ -71,7 +71,7 @@ const Hero = ({handleOrderPopup}) => {
 
                     <h1 
                     data-aos="zoom-out"
-                    datr-aos-duration="500"
+                    data-aos-duration="500"
                     data-aos-once="true"
                 
                     className='text-5xl sm:text-6xl lg:text-7xl font-bold'>{data.title}</h1>
