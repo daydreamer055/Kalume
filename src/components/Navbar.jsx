@@ -93,11 +93,11 @@ const Navbar = ({ handleOrderPopup }) => {
 )
 
   return (
-    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40 w-full overflow-x-hidden">
 
       {/* Upper Navbar */}
       <div className="bg-primary/40 py-2">
-        <div className="container flex justify-between items-center gap-2">
+        <div className="container mx-auto w-full px-3 sm:px-4 flex justify-between items-center gap-2">
 
           {/* Logo */}
           <div className="flex-shrink-0">
