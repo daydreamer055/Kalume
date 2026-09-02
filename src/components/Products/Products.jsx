@@ -84,7 +84,7 @@ const Products = () => {
                        className='spaces-y-3'
                        >
                         <img src={data.img} alt="" 
-                        className='h-[220px] 2-[150px] object-cover rounded-md  '
+                        className='h-[220px] w-[150px] object-cover rounded-md  '
                         />
                          <div>
                            <h3 className='font-semibold' >{data.title}</h3>

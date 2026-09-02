@@ -115,7 +115,7 @@ const Navbar = ({ handleOrderPopup }) => {
           </div>
 
           {/* Search Bar */}
-          <div className="flex-1 flex justify-center min-w-0">
+          <div className="flex-1 flex justify-center min-w-0 ">
             <div className="relative group">
 
               <input
@@ -129,14 +129,14 @@ const Navbar = ({ handleOrderPopup }) => {
                 rounded-full border border-gray-300
                 px-3 py-1 text-sm
                 focus:outline-none focus:border-primary
-                dark:border-gray-500 dark:bg-gray-800"
+                dark:border-gray-500 dark:bg-gray-800 pr-10"
               />
 
               <IoMdSearch
                 className="text-gray-500
                 group-hover:text-primary
                 absolute top-1/2
-                -translate-y-1/2 right-3"
+                -translate-y-1/2 right-4"
               />
 
               {/* Suggestions */}

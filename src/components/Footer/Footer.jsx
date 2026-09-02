@@ -39,7 +39,7 @@ const FooterLinks = [
 
 const Footer = () => {
   return (
-    <div style={BannerImg} className='text-white mb-20'>
+    <div style={BannerImg} className='text-white '>
        <div className='container'>
            <div 
            data-aos="zoom-in"
